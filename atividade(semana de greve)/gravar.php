@@ -19,25 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Página de Gravação</title>
-    <style>
-        /* Estilos CSS para a página de gravação */
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        form {
-            margin-bottom: 20px;
-        }
-
-        input[type="text"], input[type="email"] {
-            width: 200px;
-            padding: 5px;
-        }
-
-        input[type="submit"] {
-            padding: 5px 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="gravar.css">
 </head>
 <body>
     <h1>Página de Gravação</h1>
